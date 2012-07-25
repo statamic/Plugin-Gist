@@ -8,7 +8,7 @@ Statamic Gist Plugin
 
 ## Usage
 
-Quick embed any [Gist](http://github.com/gist) with a simple tag. Example:
+Quick embed any [Gist](https://gist.github.com/) with a simple tag. Example:
     
     {{ gist:12345 }}
 
