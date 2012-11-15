@@ -11,5 +11,13 @@ Statamic Gist Plugin
 Quick embed any [Gist](https://gist.github.com/) with a simple tag. Example:
     
     {{ gist:12345 }}
+    
+Longhand format example:
+
+		{{ gist id="12345" }}
 
 Where '12345' is the id of the desired gist. That's all there is to it.
+
+To speficy a specific file within a gist use the longhand format.
+
+		{{ gist id="12345" file="filename.md" }}
